@@ -1,0 +1,187 @@
+body{
+
+    font-family: sans-serif;
+    /*Per treure el marge*/
+    margin: 0;
+}
+/*El "a" son tots els links*/
+a{
+    /*Per treura-li el subrallat que li dona al ser un link*/
+    text-decoration: none;
+    color: black;
+}
+header{
+    /*Para que se vea de manera horizontal*/
+    display: flex;
+    /*Per donar-li una altura al header*/
+    height: 70px;
+    background-color: rgb(248, 222, 77);
+    /*Per posar-ho a las esquinas*/
+    justify-content: space-between;
+    /*Per ficar al mig tots els elements*/
+    align-items: center;
+    padding: 10px;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-family: "pokemon hollow", Helvetica, sans-serif;
+    letter-spacing: 3px;
+}
+
+.logo img{
+    height: 50px;
+    /*Per separar una mica el logo*/
+    margin-right: 10px;
+}
+/* Dins del apartat nav agafem nomes els links*/
+nav{
+    display: flex;
+    justify-content: center;
+    /*Si el contenido se junta, que se ponga el texto,
+    uno a bajo del otro*/
+    flex-wrap: wrap;
+}
+nav a{
+    /*Per posar-ho amb negrita*/
+    font-weight: 600;
+    padding: 0em 1em 0em 1em;
+    display: block;
+    text-align: center;
+    font-size: 1.3em;
+    font-family: "pokemon hollow", Helvetica, sans-serif;
+    /*Per separar les lletres*/
+    letter-spacing: 2px;
+
+}
+
+/*Per modificar com es veu cuan li pasem el ratoli per sobre*/
+nav a:hover{
+color: white;
+
+}
+.titol{
+    background-color: #F2E7BF;
+    font-size: 35px;
+    margin: 0px;
+    height: 200px;
+    letter-spacing: 10px;
+}
+.titol h1{
+    text-align: center;
+    margin: 0;
+    padding: 0px;
+    font-family: "pokemon hollow", Helvetica, sans-serif;
+}
+.contenido{
+
+    align-items: center;
+    display: flex;
+    /*Centrar-ho tot*/
+    justify-content: center;
+    background-color: #F2E7BF;
+}
+
+.img1{
+
+    text-align: center;
+    
+}
+.img1 img{
+
+    width: 450px;
+    height: 400px;
+    padding: 10px;
+}
+
+.img1 h2{
+
+    font-family: "pokemon solid", Helvetica, sans-serif;
+    letter-spacing: 7px;
+}
+
+.img1 p{
+    width: 20em;
+}
+
+
+.img2{
+    text-align: center;
+}
+
+.img2 img{
+
+    width: 450px;
+    height: 400px;
+    padding: 10px;
+}
+
+.img2 h2{
+    font-family: "pokemon solid", Helvetica, sans-serif;
+    letter-spacing: 7px;
+}
+
+.img2 p{
+    width: 20em;
+}
+
+.img3{
+    text-align: center;
+}
+
+.img3 img{
+
+    width: 450px;
+    height: 400px;
+    padding: 10px;
+}
+
+.img3 h2{
+    font-family: "pokemon solid", Helvetica, sans-serif;
+    letter-spacing: 7px;
+}
+
+.img3 p{
+    width: 20em;
+}
+.img1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 5px black;
+    margin-right: 30px;
+}
+.img1 p{
+    display: block;
+    text-align: justify;
+    margin: 0px;
+}
+.img2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 5px black;
+    margin-right: 30px;
+}
+.img2 p{
+    display: block;
+    text-align: justify;
+    margin: 0px;
+}
+.img3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 5px black;
+}
+.img3 p{
+    display: block;
+    text-align: justify;
+    margin: 0px;
+}
+
